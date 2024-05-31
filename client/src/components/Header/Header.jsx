@@ -8,7 +8,6 @@ export default function Header() {
                     <img className=' h-4' src={Logo} />
                 </header>
                 <div className="flex">
-                    <h1>Aslanbek Chort jobanniy</h1>
                 </div>
             </div>
         </nav>
