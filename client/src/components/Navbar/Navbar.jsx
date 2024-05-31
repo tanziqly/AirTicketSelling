@@ -16,12 +16,22 @@ export default function Header() {
                 <header>
                     <img className=' h-4' src={Logo} alt='logo'/>
                 </header>
-                <div className="flex gap">
+                <div className="flex gap items-center gap-2">
                     <Link to="/">
                         <div className='flex mx-2 gap-[6px]'>
                             <img src={User} alt="user_img" />
                             <span className='button text-white font-semibold'>Профиль</span>
                         </div>
+                    </Link>
+                    <Link to="/signin">
+                        <button className='px-3 py-2 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold'>
+                            Войти
+                        </button>
+                    </Link>
+                    <Link to="/signup">
+                        <button className='px-3 py-2 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-bold'>
+                            Регистрация
+                        </button>
                     </Link>
                 </div>
             </div>
