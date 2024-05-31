@@ -1,9 +1,20 @@
-import Header from "./components/Header/Header"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import Layout from "./components/layout/Layout"
 
 function App() {
 
   return (
-    <Header />
+      <BrowserRouter>
+        <Layout>
+          <Routes>
+            <Route 
+              path="/"
+              element={<Home />} 
+            />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
   )
 }
 
