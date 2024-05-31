@@ -7,14 +7,13 @@ import Planet from './assets/planet.svg'
 
 export default function Header() {
 
-    const [currencyOpen, setCurrencyOpen] = useState(true);
-    const [dropdownOpen, setDropdownOpen] =useState(true);
-
     return (
         <nav className="bg-orange-500 w-full py-4 flex justify-center">
             <div className="w-full max-w-[1440px] flex items-center justify-between">
                 <header>
-                    <img className=' h-4' src={Logo} alt='logo'/>
+                    <Link to="/">
+                        <img className=' h-4' src={Logo} alt='logo'/>
+                    </Link>
                 </header>
                 <div className="flex gap items-center gap-2">
                     <Link to="/profile">
