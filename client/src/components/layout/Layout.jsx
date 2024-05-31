@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
 
 const Layout =({children}) =>{
     return(
@@ -7,7 +8,10 @@ const Layout =({children}) =>{
         <div>
             <Navbar/>
         </div>
-        <main>{children}</main>
+        <main className='h-screen'>{children}</main>
+        <div>
+            <Footer />
+        </div>
         </>
     )
 }
