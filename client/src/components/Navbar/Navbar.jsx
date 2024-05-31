@@ -17,7 +17,7 @@ export default function Header() {
                     <img className=' h-4' src={Logo} alt='logo'/>
                 </header>
                 <div className="flex gap items-center gap-2">
-                    <Link to="/">
+                    <Link to="/profile">
                         <div className='flex mx-2 gap-[6px]'>
                             <img src={User} alt="user_img" />
                             <span className='button text-white font-semibold'>Профиль</span>

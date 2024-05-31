@@ -5,9 +5,9 @@ export default function Foother() {
         <footer className="bg-black flex justify-center h-24">
             <div className="w-full max-w-[1440px] flex items-center justify-between ">
                 <img className='h-4' src={Logo} alt="logo" />
-                <div className='text-white font-bold '>
+                <span className='text-white font-bold '>
                     ©All rights reserved
-                </div>
+                </span>
             </div>
         </footer>
     )
