@@ -3,20 +3,20 @@ import DirectionIcon from './assets/DirectionIcon.svg'
 
 export const TopDirection = () => {
   return (
-    <section className=''>
-        <h2 className="font-bold text-4xl mb-6">Популярные места</h2>
+    <section className='pt-2 w-full flex flex-col items-center'>
+        <h2 className="font-bold text-4xl mt-44">Популярные места</h2>
         <div>
-            <div>
+            <button className='flex gap-1'>
                 <img src={DirectionIcon} alt="" />
-                <div>
-                    <h4>
+                <div className='flex flex-col gap-0'>
+                    <h4 className='text-orange-500 text-sm font-bold'>
                         Ереван
                     </h4>
-                    <span>
+                    <span className='text-xs text-zinc-600'>
                         Армения
                     </span>
                 </div>
-            </div>
+            </button>
         </div>
     </section>
   )
