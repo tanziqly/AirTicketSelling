@@ -122,7 +122,7 @@ export const Signup = () => {
             <p className='font-medium text-sm text-center'>
                 Уже есть аккаунт? <Link to="/signin">
                     <span className='font-bold text-orange-600'>
-                        Зарегистрироваться
+                        Войти
                     </span>
                 </Link>
             </p>
