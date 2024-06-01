@@ -3,7 +3,7 @@ import Home from "./pages/Home"
 import Layout from "./components/layout/Layout"
 import { Signin } from "./pages/Signin"
 import { Signup } from "./pages/Signup"
-// import { Profile } from "./pages/Profile"
+import { Profile } from "./pages/Profile"
 
 function App() {
 
@@ -23,10 +23,10 @@ function App() {
               path="/signup"
               element={<Signup />} 
             />
-            {/* <Route 
+            <Route 
               path="/profile"
               element={<Profile />} 
-            /> */}
+            />
           </Routes>
         </Layout>
       </BrowserRouter>
