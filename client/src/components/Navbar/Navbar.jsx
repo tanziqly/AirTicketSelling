@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 import Logo from './assets/logo.svg'
+import HomeIcon from './assets/homeIcon.svg'
 import User from './assets/user.svg'
 import Planet from './assets/planet.svg'
 
@@ -16,6 +17,12 @@ export default function Header() {
                     </Link>
                 </header>
                 <div className="flex gap items-center gap-2">
+                    <Link to="/">
+                        <div className='flex mx-2 gap-[6px]'>
+                            <img src={HomeIcon} alt="user_img" />
+                            <span className='button text-white font-semibold'>Главная</span>
+                        </div>
+                    </Link>
                     <Link to="/profile">
                         <div className='flex mx-2 gap-[6px]'>
                             <img src={User} alt="user_img" />

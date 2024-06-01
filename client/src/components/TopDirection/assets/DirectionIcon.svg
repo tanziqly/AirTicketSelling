@@ -1,0 +1,27 @@
+<svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d_8_1837)">
+<g clip-path="url(#clip0_8_1837)">
+<rect x="3" y="2.25" width="30" height="30" rx="15" fill="white" fill-opacity="0.01" shape-rendering="crispEdges"/>
+<rect width="30" height="30" transform="translate(3 2.25)" fill="url(#pattern0_8_1837)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_8_1837" x="0" y="0.25" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8_1837"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8_1837" result="shape"/>
+</filter>
+<pattern id="pattern0_8_1837" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_8_1837" transform="scale(0.0166667)"/>
+</pattern>
+<clipPath id="clip0_8_1837">
+<rect x="3" y="2.25" width="30" height="30" rx="15" fill="white"/>
+</clipPath>
+<image id="image0_8_1837" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8BAMAAADI0sRBAAAAGFBMVEX/AADfAB8cAOEAAP8fFN7hkxz/pgD/pQBx6Db8AAAABnRSTlP/+/z//PtVyNXGAAAAJElEQVQ4y2NhwAtYRqVHpYmXFqSl9GiYj0rTK62NJsVRaaKlARUaAWgyeaN6AAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

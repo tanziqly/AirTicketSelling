@@ -8,7 +8,7 @@ const Layout =({children}) =>{
         <div>
             <Navbar/>
         </div>
-        <main className='h-screen'>{children}</main>
+        <main>{children}</main>
         <div>
             <Footer />
         </div>
