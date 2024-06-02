@@ -1,6 +1,6 @@
-import React from 'react'
+
 import { CalcInputs } from '../CalcInputs/CalcInputs'
-import { TopPlace } from '../TopPlace/TopPlace'
+import { TopPlace } from '../TopPlaceMain/TopPlaceMain'
 
 export const Banner = () => {
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Liked from './assets/liked.svg';
 import DefaultLiked from './assets/defaultLike.svg';
 import ToggleButton from '@mui/material/ToggleButton';

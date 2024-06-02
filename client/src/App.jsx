@@ -4,6 +4,8 @@ import Layout from "./components/layout/Layout"
 import { Signin } from "./pages/Signin"
 import { Signup } from "./pages/Signup"
 import { Profile } from "./pages/Profile"
+import { TopPlace } from "./pages/TopPlace"
+import { Error } from "./pages/Error"
 
 function App() {
 
@@ -11,6 +13,10 @@ function App() {
       <BrowserRouter>
         <Layout>
           <Routes>
+          <Route 
+              path="*"
+              element={<Error />} 
+            />
             <Route 
               path="/"
               element={<Home />} 
@@ -26,6 +32,10 @@ function App() {
             <Route 
               path="/profile"
               element={<Profile />} 
+            />
+            <Route 
+              path="/topplace"
+              element={<TopPlace />} 
             />
           </Routes>
         </Layout>
