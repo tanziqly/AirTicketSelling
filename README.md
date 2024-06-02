@@ -31,3 +31,8 @@
 
 ## ML
   Написан на Python с использованием Pandas и Keras
+
+## Запуск проекта
+
+  Frontend - yarn dev
+  Backend - npm run dev
