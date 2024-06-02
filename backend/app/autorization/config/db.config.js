@@ -1,8 +1,8 @@
 module.exports = {
-    HOST: "localhost",
-    USER: "postgres",
-    PASSWORD: "1234",
-    DB: "kal",
+    HOST: "master.adecb8cd-820a-40b0-8daf-66956bcf548a.c.dbaas.selcloud.ru",
+    USER: "base",
+    PASSWORD: "base",
+    DB: "bogdan",
     dialect: "postgres",
     pool: {
       max: 5,

@@ -34,7 +34,7 @@ app.listen(PORT, () => {
 
 
 
-const db = require("./app/authorization/models");
+const db = require("./app/autorization/models/index");
 const Role = db.role;
 
 db.sequelize.sync({force: true}).then(() => {
