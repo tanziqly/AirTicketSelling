@@ -1,6 +1,8 @@
 ![logo](https://github.com/tanziqly/AirTicketSelling/assets/145422367/082dcbba-6b52-4e0f-87ee-3f124a1cd3ab)
 # Сервис для букинга авиабилетов
 
+[Макет Figma](https://www.figma.com/design/w6gaQUOFllWgNsAzj8DqBF/Untitled?node-id=0-1&t=Y2jdtDm5hOvdYASg-1)
+
 ## Frontend
   Весь Frontend написан на фреймворке React, для описания стилей использовался Tailwindcss, некоторые компоненты были взяты из библиотеки готовых компонентом MUI.
   Сам проект собран на сборщике Vite и представляет собой следующую структуру.
