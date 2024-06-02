@@ -1,0 +1,45 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "Node. js Exspress Login and Registration example",
+  "main": "(index. js) server. js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node.",
+    "js",
+    "express",
+    "login",
+    "registration",
+    "rest",
+    "api",
+    "jwt",
+    "authentication",
+    "auto",
+    "rezation",
+    "mysql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "node. js Express Login and Regisrtation example"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.0",
+    "nodemon": "^3.1.2",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {}
+}
